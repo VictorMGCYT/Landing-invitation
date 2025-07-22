@@ -3,10 +3,10 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import React from 'react'
 
 const images = [
-    '/image1.jpg',
-    '/image2.jpg',
-    '/image3.jpg',
-    '/image4.jpg',
+    '/Landing-invitation/image1.jpg',
+    '/Landing-invitation/image2.jpg',
+    '/Landing-invitation/image3.jpg',
+    '/Landing-invitation/image4.jpg',
 ]
 
 export default function Footer() {
