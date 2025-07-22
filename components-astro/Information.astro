@@ -1,0 +1,40 @@
+---
+import { MapPin, PartyPopper, Map } from "lucide-react";
+
+
+---
+
+
+<div class="flex flex-col items-center justify-center w-full">
+    <div class="h-[40px] md:h-[60px]"></div>
+    <div class="grid grid-cols-1 md:grid-cols-3 w-full items-center bg-stone-400 font-merriweather">
+        <div class="flex flex-col items-center justify-start p-4 gap-2">
+            <p class="text-xl font-semibold" id="location">Evento</p>
+            <p class="font-thin">Mi primera comunión</p>
+            <PartyPopper size={32} className="text-amber-700" />
+        </div>
+        <div class="flex flex-col items-center justify-start p-4 gap-2">
+            <p class="text-xl font-semibold">Lugar</p>
+            <p class="font-thin">Comunidad de La Cabra</p>
+            <MapPin size={32} className="text-amber-700" />
+        </div>
+        <div class="flex flex-col items-center justify-start p-4 gap-2">
+            <p class="text-xl font-semibold">Ubicación</p>
+            <p class="font-thin">Calle Juan Aldama #3</p>
+            <Map size={32} className="text-amber-700" />
+        </div>
+    </div>
+    <div id="invitation" class="mt-8 px-4 py-6 bg-white/80 rounded-xl shadow-lg max-w-xl mx-auto text-center font-merriweather">
+        <p class="text-2xl font-bold mb-2 text-amber-700">¡Prepárate para un día muy especial!</p>
+        <p class="mb-2">Después de mucha ilusión, aprendizajes y momentos compartidos en familia...</p>
+        <p class="mb-2">¡Por fin ha llegado el gran día! Estoy muy feliz de invitarte a celebrar mi Primera Comunión.</p>
+        <p class="mb-2">Tu presencia hará que este momento sea aún más especial y lleno de alegría. ¡No hay celebración completa sin ti!</p>
+        <p class="font-semibold text-amber-700 mt-4">Te espero con mucho cariño.</p>
+    </div>
+
+    <!-- Sábado 2 de agosto -->
+    <div id="date" class="w-full mt-4 mb-4 flex flex-col justify-center items-center font-merriweather bg-stone-400 p-8 gap-2">
+        <p class="text-2xl">Sábado</p>
+        <p>2 de Agosto del 2025</p>
+    </div>
+</div>
